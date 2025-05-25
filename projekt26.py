@@ -2873,4 +2873,4 @@ if __name__ == "__main__":
         render_strategy_page()
         
     # Always render the footer
-    render_footer()
+  
