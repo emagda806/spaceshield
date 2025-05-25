@@ -47,6 +47,22 @@ st.markdown("""
         width: 20vw !important;
         min-width: 20vw !important;
     }
+
+    /* Media query for smaller devices */
+    @media screen and (max-width: 768px) {
+        [data-testid="stSidebar"][aria-expanded="true"] {
+            width: 50vw !important;
+            min-width: 50vw !important;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        [data-testid="stSidebar"][aria-expanded="true"] {
+            width: 80vw !important;
+            min-width: 80vw !important;
+        }
+    }
+
     [data-testid="stSidebar"][aria-expanded="true"] h2 {
         font-size: 1.2rem;
         word-wrap: break-word; 
