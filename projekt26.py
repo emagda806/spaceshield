@@ -41,10 +41,7 @@ st.markdown("""
         font-family: 'Inter', sans-serif;
     }
     
-    .stApp {
-        background-color: white !important;
-        color: black !important;
-    }
+
 
     /* Sidebar styles (20vw width) */
     [data-testid="stSidebar"][aria-expanded="true"] {
