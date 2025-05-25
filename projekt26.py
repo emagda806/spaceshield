@@ -4,12 +4,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 import pydeck as pdk
-from docx import Document
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
-from langchain.chains import RetrievalQA
-from langchain.llms import OpenAI
 import json
 import requests
 from streamlit_lottie import st_lottie
